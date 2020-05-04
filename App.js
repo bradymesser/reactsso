@@ -7,18 +7,13 @@
  */
 
 import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+
+import LoginScreen from './screens/login'
 
 const App: () => React$Node = () => {
   return (
     <>
+      <LoginScreen/>
     </>
   );
 };
